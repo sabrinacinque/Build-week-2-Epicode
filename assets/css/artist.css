@@ -1,0 +1,243 @@
+body {
+  margin: 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.button-container .btn-round {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 24px;
+  border-radius: 12px;
+  font-size: 16px;
+  line-height: 1;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: none;
+  padding: 0 10px;
+}
+.button-container .btn-round i {
+  color: white !important;
+  font-size: 14px !important;
+}
+
+.img-container {
+  height: 55vh;
+  overflow: hidden;
+  position: relative;
+}
+.img-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.additional-buttons .btn-round {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 36px;
+  border-radius: 18px;
+  font-size: 16px;
+  line-height: 1;
+  margin-left: 10px;
+  padding: 0 15px;
+}
+
+.white-bg {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.opaque-bg {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+}
+
+.img-btn {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 36px;
+  border-radius: 18px;
+  padding: 0 15px;
+  background-size: cover;
+  background-position: center;
+}
+
+.artist-info {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: white;
+}
+
+.verified-text {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.artist-name {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.monthly-listeners {
+  font-size: 16px;
+}
+
+main {
+  background-color: #121212 !important;
+  color: white;
+}
+
+.list-group-item {
+  background-color: #121212 !important;
+  color: white;
+}
+
+.btn-play {
+  border-radius: 50%;
+  background-color: #1ed760;
+}
+
+.btn-play:hover {
+  border-radius: 50%;
+  background-color: #1ed760;
+}
+
+.btn-followers {
+  border: 1px solid gray;
+}
+
+.list-group-item img {
+  max-width: 100px;
+  height: 50px;
+}
+
+#picture {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.img-container #picture {
+  height: 30em !important;
+}
+
+#picture {
+  height: 30em !important;
+}
+
+.navbar-white {
+  background-color: #060d20;
+  padding: 0 !important;
+}
+
+#artista1 {
+  color: white;
+}
+
+#navbar {
+  z-index: 100;
+}
+
+#profilo {
+  margin-left: 120px;
+  background-color: transparent;
+  border: none;
+}
+
+#princ {
+  color: white !important;
+}
+
+.track-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.track-list .track-item {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 0.9rem;
+}
+.track-list .track-item:last-child {
+  border-bottom: none;
+}
+.track-list .track-item .track-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 1rem;
+}
+.track-list .track-item .track-title {
+  font-weight: bold;
+  color: #333;
+}
+
+.divTracks {
+  cursor: pointer;
+}
+
+.tit {
+  font-size: 25px;
+}
+
+.text1 {
+  font-size: 12px;
+}
+.text1 img {
+  width: 25px;
+}
+
+#bctp {
+  border-radius: 50%;
+  border: none;
+}
+
+.artist-info {
+  background: rgba(0, 0, 0, 0.5); /* Optional: adds a dark overlay to improve text readability */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Ensure scrollable content within the specific section */
+.container-fluid[style] {
+  max-height: 400px; /* Adjust height as needed */
+  overflow-y: auto;
+}
+
+#navbar {
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.accountImage {
+  width: 30px;
+  height: 30px;
+}
+
+#dropdown {
+  z-index: 1000;
+}
+
+@media screen and (min-width: 575px) {
+  #navbar1 {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 990px) {
+  #navbar1 {
+    width: 55%;
+  }
+}
+.hover:hover {
+  color: var(--bs-dark) !important;
+}/*# sourceMappingURL=artist.css.map */

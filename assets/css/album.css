@@ -1,0 +1,97 @@
+body,
+html {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.accountImage {
+  width: 25px;
+}
+.fontAccount {
+  font-size: 13px;
+}
+
+.albumTitleMain {
+  font-size: 25px;
+}
+@media screen and (min-width: 768px) {
+  .albumTitleMain {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .albumTitleMain {
+    font-size: 65px;
+  }
+}
+.albumTitles {
+  font-size: 13px;
+}
+.descriptionAlbum {
+  font-size: 10px;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.iconTop {
+  opacity: 0.5;
+}
+
+.titleBold {
+  font-weight: 700 !important;
+}
+
+.authorDescription {
+  font-size: 11px;
+}
+
+.spotifyColor {
+  background-color: #1ed760 !important;
+}
+
+.cursorPointer {
+  cursor: pointer;
+}
+
+#navbarAlbum {
+  width: 100%;
+  z-index: 3;
+}
+@media screen and (min-width: 768px) {
+  #navbarAlbum {
+    width: 53%;
+  }
+}
+.displayNone {
+  display: flex !important;
+}
+
+.divTracks {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+}
+
+.divTracks:hover {
+  background-color: #726c6c;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+#TitleSong {
+  font-size: 10px;
+}
+
+@media screen and (min-width: 1400px) {
+  #TitleSong {
+    font-size: 16px;
+  }
+}
+
+
+.hover:hover{
+  color: var(--bs-dark) !important;
+}
